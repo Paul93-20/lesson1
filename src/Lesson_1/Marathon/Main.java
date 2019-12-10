@@ -19,7 +19,7 @@ public class Main {
         Course course = new Course(obstacles);
         System.out.println("Team runs obstacles");
         course.doIt(team);
-        System.out.println("results");
+        System.out.println("Show results");
         team.showResults();
         System.out.println("runners team finished obstacle course");
         team.showRunnersFinished();
